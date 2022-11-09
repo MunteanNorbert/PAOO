@@ -15,28 +15,28 @@ class Uncopyable{
 class Persoana : private Uncopyable{ //we keep Persoana objects from being copied
     public:
         string nume1;
-		int varsta1;
+	int varsta1;
 
-		Persoana(string nume,int varsta) //Default Constructor
-		:nume1(nume), //this are initializations
-		varsta1(varsta)
-		{} //the ctor body is empty
+	Persoana(string nume,int varsta) //Default Constructor
+	:nume1(nume), //this are initializations
+	varsta1(varsta)
+	{} //the ctor body is empty
 
         ~Persoana() //Destructor
-		{}
+	{}
 
         //Persoana& persoana = (const Persoana &persoana) // Copy assignment operator
         //{}
-
-    string getNume()
+	
+	string getNume()
 	{
-        return this->nume1;
-    }
+       		return this->nume1;
+	}
 
 	int getVarsta()
 	{
-        return this->varsta1;
-    }
+        	return this->varsta1;
+	}
 };
 
 
