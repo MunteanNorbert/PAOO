@@ -25,6 +25,9 @@ class Persoana : private Uncopyable{ //we keep Persoana objects from being copie
         ~Persoana() //Destructor
 	{}
 
+        //Persoana(const Persoana& persoana) //copy constructor
+        //{}
+         
         //Persoana& persoana = (const Persoana &persoana) // Copy assignment operator
         //{}
 	
