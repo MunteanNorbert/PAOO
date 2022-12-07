@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tema3.dir/tema3.cpp.o -o tema3 
