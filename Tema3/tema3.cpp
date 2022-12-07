@@ -32,20 +32,6 @@ class Persoana {
     Persoana(const Persoana& persoana):nume1(persoana.nume1),varsta1(persoana.varsta1) //Copy constructor
     {}
 
-
-	Persoana& operator=(const Persoana& persoana)
-	{ //Item 11
-
-		if(this == &persoana)
-			return *this; //Identity test: if a self-assignment, do nothing
-
-	 	this->nume1 = persoana.nume1;
-	 	this->varsta1 = persoana.varsta1;
-
-		return *this; // return the left-hand object
-	}
-
-
 	string getNume()
 	{
        	return this->nume1;
